@@ -16,8 +16,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseSwagger();
-app.UseSwaggerUI(c=>c.SwaggerEndpoint("/swagger/v1/swagger.json","Bom Api v1"));
+// app.UseSwagger();
+// app.UseSwaggerUI(c=>c.SwaggerEndpoint("/swagger/v1/swagger.json","Bom Api v1"));
 
 app.UseHttpsRedirection();
 
